@@ -44,7 +44,7 @@ def make_executable(filename):
 
 def install(runner, overwrite=False, hooks=False):
     """Install the pre-commit hooks."""
-    pre_commit_file = resource_filename('pre-commit-hook')
+    pre_commit_file = resource_filename('pre-push-hook')
 
     # If we have an existing hook, move it to pre-commit.legacy
     if (

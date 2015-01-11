@@ -31,6 +31,7 @@ setup(
     package_data={
         'pre_commit': [
             'resources/pre-commit-hook',
+            'resources/pre-push-hook',
             'resources/rbenv.tar.gz',
             'resources/ruby-build.tar.gz',
             'resources/ruby-download.tar.gz',

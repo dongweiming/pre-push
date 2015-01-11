@@ -67,6 +67,8 @@ def main(argv=None):
     run_parser.add_argument(
         '--verbose', '-v', action='store_true', default=False,
     )
+    run_parser.add_argument('--origin', '-o', default='')
+    run_parser.add_argument('--source', '-s', default='')
     run_mutex_group = run_parser.add_mutually_exclusive_group(required=False)
     run_mutex_group.add_argument(
         '--all-files', '-a', action='store_true', default=False,

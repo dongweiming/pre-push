@@ -45,7 +45,7 @@ class Runner(object):
 
     @cached_property
     def pre_commit_path(self):
-        return os.path.join(self.git_root, '.git', 'hooks', 'pre-commit')
+        return os.path.join(self.git_root, '.git', 'hooks', 'pre-push')
 
     @cached_property
     def pre_commit_legacy_path(self):
