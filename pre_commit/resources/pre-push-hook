@@ -51,6 +51,7 @@ do
     fi
 done
 
+
 if ((WHICH_RETV == 0)); then
     pre-commit $args
     PRE_COMMIT_RETV=$?
